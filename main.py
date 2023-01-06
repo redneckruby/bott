@@ -3,15 +3,12 @@ import os
 import threading
 from discord.ext import commands
 from discord import app_commands
-from dotenv import load_dotenv
 
 intents = discord.Intents.default()
 intents.message_content = True
 global val
 val = False
 
-load_dotenv()
-TOKEN = os.getenv('DISCORD_TOKEN')
 
 client = discord.Client(intents=intents, command_prefix='!')
 
@@ -70,4 +67,4 @@ async def on_message(message):
         await message.add_reaction(emoji)
 
 
-client.run(TOKEN)
+client.run('MTA1OTU2OTY2NzExMjQzNTc1NQ.GwUiZv.TvZZFIsJVK76UlMqcOuvfKPMxr7Nugmpx4bryI')
