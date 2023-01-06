@@ -67,4 +67,4 @@ async def on_message(message):
         await message.add_reaction(emoji)
 
 
-client.run('MTA1OTU2OTY2NzExMjQzNTc1NQ.GwUiZv.TvZZFIsJVK76UlMqcOuvfKPMxr7Nugmpx4bryI')
+client.run()
